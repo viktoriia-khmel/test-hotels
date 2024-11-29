@@ -25,7 +25,7 @@ function getCommonDivisors(numbers) {
   return commonDivisors;
 }
 
-// Пример использования
+
 console.log(getCommonDivisors([42, 12, 18, 36]));
 console.log(getCommonDivisors([24, 36, 60]));
 console.log(getCommonDivisors([17, 34, 51]));

@@ -11,20 +11,16 @@ function getPrimeNumbersInRange(start, end) {
 
   const min = Math.min(start, end);
   const max = Math.max(start, end);
-
-  
   const primes = [];
   for (let i = min; i <= max; i++) {
     if (isPrime(i)) {
       primes.push(i);
     }
   }
-
   return primes;
 }
 
-
-console.log(getPrimeNumbersInRange(11, 20)); // [11, 13, 17, 19]
-console.log(getPrimeNumbersInRange(1, 10)); // [2, 3, 5, 7]
-console.log(getPrimeNumbersInRange(20, 11)); // [11, 13, 17, 19]
-console.log(getPrimeNumbersInRange(50, 60)); // [53, 59]
+console.log(getPrimeNumbersInRange(11, 20));
+console.log(getPrimeNumbersInRange(1, 10));
+console.log(getPrimeNumbersInRange(20, 11));
+console.log(getPrimeNumbersInRange(50, 60));
