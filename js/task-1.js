@@ -18,4 +18,4 @@ console.log(getComputers(1));
 console.log(getComputers(12));
 console.log(getComputers(100));
 console.log(getComputers(227));
-console.log(getComputers(-48));
+console.log(getComputers(-44));
